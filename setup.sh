@@ -20,3 +20,8 @@ mim install mmsegmentation==0.27.0
 #Solves partially initialized module 'charset_normalizer' has no attribute 'md__mypyc' (most likely due to a circular import)
 pip install --force-reinstall charset-normalizer==3.1.0
 pip install matplotlib
+pip install mmsegmentation==0.27.0
+
+# Segmentation script deps
+#conda install cuda==11.8 -c nvidia
+
